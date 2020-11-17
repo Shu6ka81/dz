@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-bold.ttf");
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+}
+.continer {
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: NunitoBold, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+margin-top: 27px;
+    margin-right: 15px;
+}
+h1 span {
+    color: red;
+    font-size: 45px;
+}
+
+.left {
+    position: absolute;
+    right: calc(50% - 1px);
+    top: calc(50% - 1px);
+    margin-right: 41px;
+}
+.right {
+    margin-top: 172px;
+    position: absolute;
+    left: calc(50% - 1px);
+    top: calc(50% - 1px);
+}
+.title {
+    font-family: NunitoBold, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+margin-top: 112px;
+}
+.text {
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 7px;
+    max-width: 496px;
+    margin-bottom: 42px;
+}
+p {
+    font-family: Nunito,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin: 0;
+    margin-top: 20px;
+}
+.form input {
+    border: none;
+    background: white;
+    border-bottom: 1px solid #C6C6C4;
+    outline: none;
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+.one input {
+    width: 452px;
+}
+.form input::placeholder {
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    margin-top: 5px;
+}
+.chek {
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.button {
+   width: 210px;
+    margin: 40px auto;
+}
+
+#button-text {
+    font-family: NunitoBold, sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 21px 68px 21px 68px;
+    box-sizing: border-box;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+.fotter {
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 44px;
+    margin-bottom: 191px;
+    text-align: center;
+}
+.chek input {
+    margin-right: 10px;
+}
+.content {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
